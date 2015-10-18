@@ -1,0 +1,31 @@
+/* HEADERS */
+.header_cw{
+	height:150px;
+	background-image: url(header_manga_cr.png);
+	background-repeat: no-repeat;
+	font-size:0px;
+}
+.header_completed{
+	height:150px;
+	background-image: url(header_manga_completed.png);
+	background-repeat: no-repeat;
+	font-size:0px;
+}
+.header_onhold{
+	height:150px;
+	background-image: url(header_manga_onhold.png);
+	background-repeat: no-repeat;
+	font-size:0px;
+}
+.header_dropped{
+	height:150px;
+	background-image: url(header_manga_dropped.png);
+	background-repeat: no-repeat;
+	font-size:0px;
+}
+.header_ptw{
+	height:150px;
+	background-image: url(header_manga_ptr.png);
+	background-repeat: no-repeat;
+	font-size:0px;
+}

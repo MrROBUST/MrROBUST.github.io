@@ -1,0 +1,21 @@
+tr [class^="td"] {
+background-image: url();
+background-color: #fff1d4;
+background-attachment: fixed;
+background-repeat: repeat;
+background-position: top right
+}
+/* Left */
+tr [class^="td"]:first-of-type{
+background-image:url();
+border-width: 0px 0px 0px 4px !important;
+border-color: #908474;
+border-style: solid;
+}
+/* Right */
+tr [class^="td"]:last-of-type{
+background-image:url();
+border-width: 0px 4px 0px 0px !important;
+border-color: #908474;
+border-style: solid;
+}

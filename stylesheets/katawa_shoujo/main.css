@@ -1,0 +1,172 @@
+/* Katawa Shoujo v1.0 - layout by Seaven - 21.04.2013 */
+/* Special thanks to Saka and Asandari */
+
+@import url(topbar/topbar.css); /* Menu Bar*/
+@import url(innerbg.css); /* Inner BG */
+
+/* BACKGROUND IMAGE & FONT SIZE */
+body{
+
+	font-size  : 11.00px;
+	font-family: HelveticaNeue LT 65 Medum;
+
+	background-image: 
+		url(bg4.png),
+		url(bg3.png),
+		url(bg2.png),
+		url(bg.png);
+	background-attachment:
+		scroll,
+		scroll,
+		fixed,
+		fixed;
+	background-repeat:
+		no-repeat,
+		repeat-x,
+		no-repeat,
+		repeat;
+	background-position:
+		top left,
+		top left,
+		bottom right,
+		top left;
+}
+html, body, a, a:visited, a:hover {cursor: url(cursor.png) 0 0, auto !important;}
+
+/* SIDE IMAGES */
+@media all and (min-width:1450px) {
+	#inlineContent {
+
+		width     : 875px !important;
+		height    : 715px !important;
+		background: url(lilly.png) scroll no-repeat right bottom;
+		position  : fixed !important;		
+		margin    : 0 0 0 -970px !important;
+		bottom    : 0px !important;
+		display   : inline-block !important;
+
+		z-index: -1;
+	}
+}
+
+/* LIST BACKGROUND & HEADER*/
+#list_surround {
+	width: 650px;
+	float: right;
+	padding-right: 225px;
+	padding-top: 300px;
+	background-image: url(headers/header.png);
+	background-repeat: no-repeat;
+	background-position: top center, right:-300;
+}
+
+/* LINE COLOR AND LIST FONT */
+TD {
+	filter:alpha(opacity=80);
+	-moz-opacity:0.80;
+	opacity: none;
+	background-color: 000000;
+}
+.td1, .td2 {
+	color: #6f695d;
+	border-width: 0px 0px 0px 0px !important;
+	border-style: solid;
+	border-color: #a7a7a7;
+	padding: 2px;
+	background-color: #ffffff; 
+}
+
+.table_header{   /* Represents the Anime Title, Score and Eps columns */  
+	color: #000000;
+	border-width: 1px 1px 1px 1px !important;
+	border-style: solid;
+	border-color: #908474;
+	background-color: #ffffff;
+	padding: 2px;
+	display:none;
+}
+.table_headerLink{color: #000000;}   /* Represents the color of the links inside the_header */
+.table_headerLink:Visited{color: #000000;}
+.table_headerLink:Hover{color: #a7a7a7;}
+
+/* LINKS FONT COLOR */
+a, a:visited {
+	color: #6f695d;
+	text-decoration: none;
+}
+a:hover {
+	color: #c8bda7;
+	text-decoration: none;
+}
+
+/* TOTALS & GRAND TOTALS*/
+.category_totals{
+	color: #6f695d;
+	text-align: center;
+	vertical-align: top;
+	background-image: url(headers/totals.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	height:38px;
+	vertical-align:middle; 
+}
+#grand_totals{
+	color: #fff1d4;
+	height: 95px;
+	width: 650px;
+	font-size: 9px;
+	font-weight: bold;
+	background-image: url(headers/grandtotals.png);
+	background-repeat: no-repeat;
+	padding-top: 40px;
+	text-align:left !important;
+	padding-left: 190px;
+	z-index: -3;
+}
+
+/* ANIME TITLE COLOR */
+.animetitle{font-weight: bold;}
+.animetitle:hover {text-decoration: none;}
+
+/* COPYRIGHT*/
+#copyright{
+	color: #6f695d;
+	padding-top: 30px;
+	text-align: center;
+	margin: 0 auto;
+	width: 550px;
+	height: 80px;
+	background-image: url(headers/footer.png);
+	background-repeat: no-repeat;
+}
+#copyright:after {
+content: ' MyAnimeList Theme - Katawa Shoujo v1.0; layout by Seaven - 21.04.2013';
+}
+
+/* OTHER STUFF */
+.form{   /* Controls the select form decoration (the drop down select box) */
+	border-width: 1px 1px 1px 1px;
+	border-color: #382603;
+	border-style: solid;
+	color: #101010;
+	padding: 2px;
+	font-size: 11.00px;
+	font-family: Verdana, Arial;
+}
+.area_across_top{   /* Controls what the little tool tip up top looks like */
+	color: #101010;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: transparent;
+	padding: 2px;
+	background-color: transparent; 
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.80;
+	opacity: 0.80;
+}
+   .area_across_top a{color: #000000;}
+   .area_across_top a:visited {color: #000000;}
+   .area_across_top a:hover {color: #a7a7a7;}

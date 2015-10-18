@@ -1,0 +1,108 @@
+#list_surround table:first-of-type{
+	position:fixed;
+	bottom: 175px !important;
+	left: 20px;
+	width:auto;
+}
+
+.status_not_selected a, .status_selected a {
+	display: block !important;
+	margin-top: 0px;
+	padding-right: 0px;
+	font-family: 'Griffy', cursive;
+	color: 000000 !important;
+	line-height: 30px;
+	font-size: 0px;
+	text-align: left;
+	right: 0px;
+	height: 32px;
+	width: 200px;
+	background-color: 000000; 
+	z-index: 20;
+	bottom: 0px; 
+	left: 0px;
+}
+
+/* Currently reading */
+.status_not_selected > a[href*="status=1"], .status_not_selected > a[href*="status=1"]:hover, .status_not_selected > a[href*="status=1"]:active, .status_selected > a[href*="status=1"] {
+ 	display: block; 
+	top: 0px; 
+	background-image: url(category_cr.png);
+	background-repeat: no-repeat;
+}
+
+.status_not_selected > a[href*="status=1"]:hover, .status_not_selected > a[href*="status=1"]:active, .status_selected > a[href*="status=1"] { 
+	color: #FFFFFF !important;
+	opacity:0.4;
+
+}
+
+/* Completed */
+.status_not_selected > a[href*="status=2"], status_not_selected > a[href*="status=2"]:hover, .status_not_selected > a[href*="status=2"]:active, .status_selected > a[href*="status=2"] {
+	position: absolute; 
+	display: block; 
+	top: 32px; 
+	background-image: url(category_completed.png);
+	background-repeat: no-repeat;
+}
+
+.status_not_selected > a[href*="status=2"]:hover, .status_not_selected > a[href*="status=2"]:active, .status_selected > a[href*="status=2"] { 
+	color: #FFFFFF !important;
+	opacity:0.4;
+}
+
+/* On Hold */
+.status_not_selected > a[href*="status=3"], .status_not_selected > a[href*="status=3"]:hover, .status_not_selected > a[href*="status=3"]:active, .status_selected > a[href*="status=3"] {
+	position: absolute; 
+	display: block;  
+	top: 64px;
+	background-image: url(category_onhold.png);
+	background-repeat: no-repeat;
+}
+
+.status_not_selected > a[href*="status=3"]:hover, .status_not_selected > a[href*="status=3"]:active, .status_selected > a[href*="status=3"] { 
+	color: #FFFFFF !important;
+	opacity:0.4;
+}
+
+/* Dropped */
+.status_not_selected > a[href*="status=4"], .status_not_selected > a[href*="status=4"]:hover, .status_not_selected > a[href*="status=4"]:active, .status_selected > a[href*="status=4"] {
+	position: absolute; 
+	display: block; 
+	top: 96px;
+	background-image: url(category_dropped.png);
+	background-repeat: no-repeat;
+}
+
+.status_not_selected > a[href*="status=4"]:hover, .status_not_selected > a[href*="status=4"]:active, .status_selected > a[href*="status=4"] { 
+	color: #FFFFFF !important;
+	opacity:0.4;
+}
+
+/* plan to read */
+.status_not_selected > a[href*="status=6"], .status_not_selected > a[href*="status=6"]:hover,  .status_not_selected > a[href*="status=6"]:active, .status_selected > a[href*="status=6"]  {
+	position: absolute; 
+	display: block; 
+	top: 128px; 
+	background-image: url(category_ptr.png);
+	background-repeat: no-repeat;
+}
+
+.status_not_selected > a[href*="status=6"]:hover,  .status_not_selected > a[href*="status=6"]:active, .status_selected > a[href*="status=6"] { 
+	color: #FFFFFF !important;
+	opacity:0.4;
+}
+
+/*All */
+.status_not_selected > a[href*="status=7"], .status_not_selected > a[href*="status=7"]:hover, .status_not_selected > a[href*="status=7"]:active, .status_selected > a[href*="status=7"]  {
+	position: absolute; 
+	display: block; 
+	top: 160px; 
+	background-image: url(category_all.png);
+	background-repeat: no-repeat;
+}
+
+.status_not_selected > a[href*="status=7"]:hover, .status_not_selected > a[href*="status=7"]:active, .status_selected > a[href*="status=7"] { 
+	color: #FFFFFF !important;
+	opacity:0.4;
+}

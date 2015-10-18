@@ -1,0 +1,31 @@
+/* HEADERS */
+.header_cw{
+	height:150px;
+	background-image: url(header_cw.png);
+	background-repeat: no-repeat;
+	font-size:0px;
+}
+.header_completed{
+	height:150px;
+	background-image: url(header_completed.png);
+	background-repeat: no-repeat;
+	font-size:0px;
+}
+.header_onhold{
+	height:150px;
+	background-image: url(header_onhold.png);
+	background-repeat: no-repeat;
+	font-size:0px;
+}
+.header_dropped{
+	height:150px;
+	background-image: url(header_dropped.png);
+	background-repeat: no-repeat;
+	font-size:0px;
+}
+.header_ptw{
+	height:150px;
+	background-image: url(header_ptw.png);
+	background-repeat: no-repeat;
+	font-size:0px;
+}
